@@ -1,0 +1,236 @@
+/* #000000 BLACK 1
+#3C3640 BLACK 2
+#AF05AA PURPLE 1
+#EA21A2 PINK 1
+#FFFFFF WHITE 1
+#F5EEEE WHITE 2 */
+
+/* Genérico */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.overtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #AF05AA;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+}
+
+
+/* Cabeçalho */
+#first_cabecalho {
+    background-color: #F5EEEE;
+    padding: 24px 72px;
+
+}
+
+.container_cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btnCabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 197px;
+    height: 48px;
+    border: 2px solid #000000;
+    border-radius: 90px;
+    text-transform: uppercase;
+}
+
+.btnCabecalho:hover {
+    background: #FFFFFF;
+    color: #3C3640;
+    border: 2px solid #3C3640;
+}
+
+/* Hero Section */
+#section_hero {
+    background-color: #F5EEEE;
+    padding: 0 72px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 96px 0;
+}
+
+.hero_text__title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #0A0A0A;
+}
+
+.hero_text__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #3C3640;
+}
+
+.hero_img {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.hero_img img {
+    max-width: 100%;
+}
+
+.btnHero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 20px;
+    width: 220px;
+    height: 40px;
+    background: #AF05AA;
+    border: transparent;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5%;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    border-radius: 90px;
+}
+
+.btnHero:hover {
+    background: #8A0B86;
+}
+
+/* SECTION SERVICES */
+#services_section {
+    padding: 96px 72px;
+    background-color: #FFFFFF;
+
+}
+
+.services_list {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+}
+
+.services_cards img {
+    max-width: 100%;
+    /* gap: 10px; */
+    border-radius: 32px 32px 0px 0px;
+}
+
+.services_cards {
+    border: 2px solid transparent;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.services_cards__text {
+    padding: 32px;
+    background-color: #FFF8F8;
+    border-radius: 0px 0px 32px 32px;
+    gap: 30px;
+}
+
+.services_cards__text h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.services_cards__text p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3640;
+}
+
+/* LOCATION SECTION */
+.location {
+    background-color: #F5EEEE;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 96px 72px 48px;
+    gap: 24px;
+}
+
+#span-adress {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Montserrat';
+}
+
+#location_section address {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #EA21A2;
+    padding: 48px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logocopy {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#logo-copy {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
